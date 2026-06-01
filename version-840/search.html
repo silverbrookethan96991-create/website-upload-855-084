@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索-免费电影大全</title>
+  <meta name="description" content="搜索免费电影大全片库中的影片、剧集、动画与综艺内容。">
+  <meta name="keywords" content="免费电影大全,免费电影,热门影片,影片片库,高清影片,在线观看,电影分类,影片搜索">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="免费电影大全">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">
+        <span class="brand-name">免费电影大全</span>
+        <span class="brand-subtitle">高清影片 在线观看</span>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link " href="./index.html">首页</a>
+        <a class="nav-link " href="./categories.html">分类</a>
+        <a class="nav-link " href="./category-featured.html">精选</a>
+        <a class="nav-link " href="./category-hot.html">热门</a>
+        <a class="nav-link " href="./ranking.html">排行</a>
+        <a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" data-search-form>
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit" aria-label="提交搜索">⌕</button>
+    </form>
+    <button class="menu-button" type="button" data-menu-toggle aria-label="打开菜单">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-nav>
+    <form class="mobile-search" action="./search.html" data-search-form>
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+      <a class="mobile-link " href="./index.html">首页</a>
+      <a class="mobile-link " href="./categories.html">分类</a>
+      <a class="mobile-link " href="./category-featured.html">精选</a>
+      <a class="mobile-link " href="./category-hot.html">热门</a>
+      <a class="mobile-link " href="./ranking.html">排行</a>
+      <a class="mobile-link active" href="./search.html">搜索</a>
+  </div>
+</header>
+<main class="subpage">
+  <section class="page-hero soft">
+    <div class="container">
+      <span class="eyebrow">影片搜索</span>
+      <h1>搜索热门好看的影片</h1>
+      <p>输入片名、地区、年份、类型或标签，快速定位想看的内容。</p>
+      <form class="search-page-form" action="./search.html" data-search-form>
+        <input type="search" name="q" placeholder="请输入搜索关键词" data-search-input>
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="container search-results-wrap">
+    <div class="search-summary" data-search-summary>请输入搜索关键词</div>
+    <div class="movie-grid four" data-search-results></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="./index.html">免费电影大全</a>
+      <p>免费电影栏目按热门、精选和类型分类整理影片信息，页面注重高清播放体验与片库浏览。</p>
+    </div>
+    <div>
+      <h2>快速入口</h2>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类浏览</a>
+      <a href="./ranking.html">热门排行</a>
+      <a href="./search.html">影片搜索</a>
+    </div>
+    <div>
+      <h2>服务支持</h2>
+      <a href="./about.html">关于我们</a>
+      <a href="./support.html">服务支持</a>
+      <a href="./copyright.html">版权声明</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 免费电影大全. 保留所有权利。</div>
+</footer>
+<script src="./assets/js/site.js"></script>
+<script src="./assets/js/movies.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

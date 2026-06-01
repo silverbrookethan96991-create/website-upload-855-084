@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电影分类 - 免费电影大全</title>
+    <meta name="description" content="免费电影大全分类总览，包含2000部免费电影、热门影片、高清影片和在线观看入口。">
+    <meta name="keywords" content="免费电影大全,免费电影,热门影片,影片片库,高清影片,在线观看,电影分类">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="./index.html" aria-label="免费电影大全首页">
+                <span class="brand-icon">▶</span>
+                <span class="brand-text">
+                    <strong>免费电影大全</strong>
+                    <small>高清影片 免费在线观看</small>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">电影分类</a>
+                <a href="./ranking.html">排行榜</a>
+                <a href="./search.html">搜索</a>
+            </nav>
+            <form class="nav-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、类型、地区..." aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="打开菜单" data-mobile-toggle>☰</button>
+        </div>
+        <div class="mobile-panel" data-mobile-panel>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">电影分类</a>
+            <a href="./ranking.html">排行榜</a>
+            <a href="./search.html">搜索</a>
+            <form action="./search.html" method="get">
+                <input type="search" name="q" placeholder="输入关键词">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="page-bg">
+        <section class="page-hero">
+            <div class="container">
+                <span class="page-kicker">Movie Categories</span>
+                <h1>电影分类总览</h1>
+                <p>全站共收录 2000 部影片，按 10 个频道整理，方便按喜好快速浏览。</p>
+            </div>
+        </section>
+        <section class="container content-section">
+            <div class="category-large-grid">
+                <article class="category-card-large">
+                    <a class="category-card-cover" href="category-featured.html">
+                        <img src="./10.jpg" alt="精选电影" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-featured.html">精选电影</a></h2>
+                        <p>精选高热度影片与口碑佳作，适合快速发现值得观看的内容。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>反转, 搞笑, 搭档, 治愈, 战争</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-featured.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-hot.html">
+                        <img src="./4.jpg" alt="热门影片" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-hot.html">热门影片</a></h2>
+                        <p>聚合站内热度较高的影视内容，覆盖电影、剧集与短剧。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>黑帮, 平行宇宙, 卧底, 黑色幽默, 小人物</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-hot.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-chinese.html">
+                        <img src="./21.jpg" alt="华语片库" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-chinese.html">华语片库</a></h2>
+                        <p>汇集华语地区热门电影、电视剧、网络电影与短剧内容。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>连环杀手, 怀旧, 亲情, 中年危机, 民国</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-chinese.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-global.html">
+                        <img src="./11.jpg" alt="欧美影集" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-global.html">欧美影集</a></h2>
+                        <p>整理欧美地区电影、剧集与高分类型片，方便集中浏览。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>治愈, 卧底, 黑帮, 硬汉, 复仇</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-global.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-japan-korea.html">
+                        <img src="./3.jpg" alt="日韩剧场" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-japan-korea.html">日韩剧场</a></h2>
+                        <p>收录日韩电影、剧集、动画与多类型影视内容。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>复仇, 治愈, 寻宝, 中年危机, 家族恩怨</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-japan-korea.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-action-adventure.html">
+                        <img src="./19.jpg" alt="动作冒险" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-action-adventure.html">动作冒险</a></h2>
+                        <p>适合寻找动作、冒险、战争、武侠等强情节内容的观众。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>复仇, 父子, 反转, 真实改编, 姐妹情</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-action-adventure.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-mystery-crime.html">
+                        <img src="./2.jpg" alt="悬疑犯罪" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-mystery-crime.html">悬疑犯罪</a></h2>
+                        <p>聚合悬疑、犯罪、惊悚、推理与心理题材影片。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>校园, 卧底, 富二代, 艳遇, 超能力</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-mystery-crime.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-comedy-romance.html">
+                        <img src="./1.jpg" alt="喜剧爱情" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-comedy-romance.html">喜剧爱情</a></h2>
+                        <p>涵盖喜剧、爱情、青春、校园与轻松治愈内容。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>治愈, 校园, 复仇, 黑帮, 文化冲突</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-comedy-romance.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-sci-fantasy.html">
+                        <img src="./5.jpg" alt="科幻奇幻" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-sci-fantasy.html">科幻奇幻</a></h2>
+                        <p>集中展示科幻、奇幻、灾难、超自然与想象力作品。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>复仇, 中年危机, 反套路, 卧底, 反恐</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-sci-fantasy.html">进入分类</a>
+                    </div>
+                </article><article class="category-card-large">
+                    <a class="category-card-cover" href="category-family-drama.html">
+                        <img src="./15.jpg" alt="家庭剧情" loading="lazy">
+                    </a>
+                    <div>
+                        <h2><a href="category-family-drama.html">家庭剧情</a></h2>
+                        <p>收录剧情、家庭、励志、文艺与现实主义题材作品。</p>
+                        <div class="category-meta">
+                            <span>200 部影片</span>
+                            <span>亲情, 绝症, 搞笑, 失忆, 警匪</span>
+                        </div>
+                        <a class="btn btn-primary" href="category-family-drama.html">进入分类</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="brand footer-brand" href="./index.html">
+                    <span class="brand-icon">▶</span>
+                    <span class="brand-text"><strong>免费电影大全</strong></span>
+                </a>
+                <p>免费电影栏目按热门、精选和类型分类整理影片信息，页面注重高清播放体验与片库浏览。</p>
+            </section>
+            <section>
+                <h3>快速入口</h3>
+                <a href="./categories.html">全部分类</a>
+                <a href="./ranking.html">影片排行榜</a>
+                <a href="./sitemap.html">站内索引</a>
+            </section>
+            <section>
+                <h3>热门频道</h3>
+                <a href="./category-featured.html">精选电影</a>
+                <a href="./category-hot.html">热门影片</a>
+                <a href="./category-chinese.html">华语片库</a>
+            </section>
+            <section>
+                <h3>观影说明</h3>
+                <p>提供清晰分类、顺畅播放、详情简介与相关推荐入口，方便快速找到想看的影片。</p>
+            </section>
+        </div>
+        <div class="footer-bottom">© 2026 免费电影大全. 保留所有权利。</div>
+    </footer>
+
+    <script src="./assets/site.js" defer></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

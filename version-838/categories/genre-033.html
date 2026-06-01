@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>纪录片专区 - 国产经典视频</title>
+<meta name="description" content="纪录片专区相关影片、剧集与精选视频内容，支持在线播放与相关推荐。">
+<meta name="keywords" content="国产经典视频,国产视频,经典视频,影片合集,高清在线观看,影视视频,精选内容">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/site.css">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="../index.html" aria-label="国产经典视频">
+      <span class="brand-icon">▶</span>
+      <span class="brand-copy">
+        <span class="brand-title">国产经典视频</span>
+        <span class="brand-subtitle">经典影片合集</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+<a class="nav-link " href="../index.html">首页</a>
+<a class="nav-link " href="../movies.html">全部影片</a>
+<a class="nav-link active" href="../categories.html">分类</a>
+<a class="nav-link " href="../ranking.html">排行榜</a>
+<a class="nav-link " href="../categories/region-domestic.html">国产</a>
+<a class="nav-link " href="../categories/region-western.html">欧美</a>
+<a class="nav-link " href="../categories/region-asia.html">日韩</a>
+<a class="nav-link " href="../categories/region-hongkong.html">港产</a>
+    </nav>
+    <form class="quick-search" action="../movies.html" method="get">
+      <input type="search" name="q" placeholder="搜索内容..." aria-label="搜索内容">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-button" type="button" data-menu-button aria-label="展开导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" data-mobile-nav>
+<a class="mobile-link " href="../index.html">首页</a>
+<a class="mobile-link " href="../movies.html">全部影片</a>
+<a class="mobile-link active" href="../categories.html">分类</a>
+<a class="mobile-link " href="../ranking.html">排行榜</a>
+<a class="mobile-link " href="../categories/region-domestic.html">国产</a>
+<a class="mobile-link " href="../categories/region-western.html">欧美</a>
+<a class="mobile-link " href="../categories/region-asia.html">日韩</a>
+<a class="mobile-link " href="../categories/region-hongkong.html">港产</a>
+    <form class="mobile-search" action="../movies.html" method="get">
+      <input type="search" name="q" placeholder="搜索内容...">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="page-wrap inner-page">
+  <section class="page-hero small-hero category-hero">
+    <span class="section-kicker">Channel</span>
+    <h1>纪录片专区</h1>
+    <p>精选纪录片题材影片与剧集内容，提供清晰的详情页、播放器和相关推荐。</p>
+    <div class="hero-actions inline-actions">
+      <a class="primary-btn" href="../movies.html">全部影片</a>
+      <a class="ghost-btn light" href="../ranking.html">排行榜</a>
+    </div>
+  </section>
+<div class="filter-bar" data-search-page>
+  <label class="filter-search">
+    <span>搜索</span>
+    <input type="search" data-filter-keyword placeholder="输入影片、地区、标签">
+  </label>
+  <label>
+    <span>地区</span>
+    <select data-filter-region>
+      <option value="">全部地区</option>
+<option value="中国">中国</option>
+<option value="中国台湾">中国台湾</option>
+<option value="中国大陆">中国大陆</option>
+<option value="中国香港/广东">中国香港/广东</option>
+<option value="巴西/英国">巴西/英国</option>
+<option value="日本/美国">日本/美国</option>
+<option value="法国">法国</option>
+<option value="爱尔兰">爱尔兰</option>
+<option value="瑞典/丹麦">瑞典/丹麦</option>
+<option value="美国">美国</option>
+<option value="英国">英国</option>
+    </select>
+  </label>
+  <label>
+    <span>年份</span>
+    <select data-filter-year>
+      <option value="">全部年份</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2012">2012</option>
+<option value="2009">2009</option>
+<option value="1934">1934</option>
+    </select>
+  </label>
+  <label>
+    <span>类型</span>
+    <select data-filter-genre>
+      <option value="">全部类型</option>
+<option value="纪录片">纪录片</option>
+<option value="社会">社会</option>
+<option value="音乐">音乐</option>
+<option value="历史">历史</option>
+<option value="人文">人文</option>
+<option value="纪实">纪实</option>
+<option value="运动">运动</option>
+<option value="冒险">冒险</option>
+<option value="家庭">家庭</option>
+<option value="宗教">宗教</option>
+<option value="健康">健康</option>
+<option value="动画">动画</option>
+<option value="剧情">剧情</option>
+<option value="悬疑">悬疑</option>
+<option value="恐怖">恐怖</option>
+<option value="儿童">儿童</option>
+<option value="传记">传记</option>
+    </select>
+  </label>
+</div>
+<p class="empty-state" data-empty-state>没有匹配内容</p>
+<div class="movie-grid filter-grid" data-card-list>
+<a class="movie-card default" href="../movies/movie-0236.html" data-card data-title="下一代粤语" data-region="中国香港/广东" data-year="2024" data-genre="纪录片 社会 人文" data-type="纪录片" data-tags="粤语 文化传承 语言消亡 儿童 本土">
+  <span class="card-poster">
+    <img src="../86.jpg" alt="下一代粤语" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">92分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">纪录片 · 2024</span>
+    <strong>下一代粤语</strong>
+    <span class="card-desc">当老派茶楼里讲粤语的点心师傅老去,一群 00 后的年轻人正在用直播、Rap 和动漫配音抢着挽救这座城市的“母语”。</span>
+    <span class="card-meta">
+      <span>中国香港/广东</span>
+      <span>纪录片</span>
+      <span>5.5万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-0511.html" data-card data-title="九月刊" data-region="美国" data-year="2009" data-genre="纪录片" data-type="电影" data-tags="时尚 女魔头 VOGUE 职场 真实记录">
+  <span class="card-poster">
+    <img src="../61.jpg" alt="九月刊" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">80分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2009</span>
+    <strong>九月刊</strong>
+    <span class="card-desc">镜头跟随着《VOGUE》主编安娜·温图尔,记录下杂志年度最重要九月刊从无到有的全部混乱与野心。</span>
+    <span class="card-meta">
+      <span>美国</span>
+      <span>纪录片</span>
+      <span>14.2万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-0536.html" data-card data-title="一周八天的岁月:披头时代" data-region="英国" data-year="2016" data-genre="纪录片 音乐 历史" data-type="纪录电影" data-tags="披头士 巡演 六十年代 粉丝狂热 未公开影像">
+  <span class="card-poster">
+    <img src="../86.jpg" alt="一周八天的岁月:披头时代" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">122分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">纪录电影 · 2016</span>
+    <strong>一周八天的岁月:披头时代</strong>
+    <span class="card-desc">披头士1962-1966年全球巡演全记录,还原那个“一周有八天”的癫狂年代。</span>
+    <span class="card-meta">
+      <span>英国</span>
+      <span>纪录片</span>
+      <span>32.8万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-0772.html" data-card data-title="阿伦人" data-region="爱尔兰" data-year="1934" data-genre="纪录片 纪实" data-type="电影" data-tags="黑白经典 海岛生活 人类学">
+  <span class="card-poster">
+    <img src="../22.jpg" alt="阿伦人" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">134分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 1934</span>
+    <strong>阿伦人</strong>
+    <span class="card-desc">1930年代爱尔兰阿伦群岛,岛民用悬崖上的绳索和膝盖下的岩石对抗大西洋的愤怒。</span>
+    <span class="card-meta">
+      <span>爱尔兰</span>
+      <span>纪录片</span>
+      <span>7.3万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-0825.html" data-card data-title="法国歌王私影像" data-region="法国" data-year="2023" data-genre="纪录片 音乐" data-type="纪录片" data-tags="私影像 档案 香颂 幕后">
+  <span class="card-poster">
+    <img src="../75.jpg" alt="法国歌王私影像" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">94分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">纪录片 · 2023</span>
+    <strong>法国歌王私影像</strong>
+    <span class="card-desc">从未公开的家庭录像带,揭开“法国歌王”克劳德·弗朗索瓦成名背后脆弱的私人世界。</span>
+    <span class="card-meta">
+      <span>法国</span>
+      <span>纪录片</span>
+      <span>4.5万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-0962.html" data-card data-title="大猫竞技" data-region="英国" data-year="2023" data-genre="纪录片 运动" data-type="电影" data-tags="野生动物 竞技体育 伪纪录">
+  <span class="card-poster">
+    <img src="../62.jpg" alt="大猫竞技" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">133分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2023</span>
+    <strong>大猫竞技</strong>
+    <span class="card-desc">BBC团队用隐藏摄像机拍下了非洲草原上,“猎豹运动会”的年度总决赛。</span>
+    <span class="card-meta">
+      <span>英国</span>
+      <span>纪录片</span>
+      <span>19.7万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-0997.html" data-card data-title="阿拉斯加大淘金第六季" data-region="美国" data-year="2024" data-genre="纪录片 冒险" data-type="剧集" data-tags="淘金 极限生存 家族纷争 自然奇观">
+  <span class="card-poster">
+    <img src="../97.jpg" alt="阿拉斯加大淘金第六季" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">12集</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">剧集 · 2024</span>
+    <strong>阿拉斯加大淘金第六季</strong>
+    <span class="card-desc">黄金价格暴涨,六支淘金队挺进北极圈,争夺最后一片未开发的富矿冻土。</span>
+    <span class="card-meta">
+      <span>美国</span>
+      <span>纪录片</span>
+      <span>36.9万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1110.html" data-card data-title="神人之家" data-region="中国台湾" data-year="2022" data-genre="纪录片 家庭 宗教" data-type="电影" data-tags="通灵 家庭和解 信仰 真实改编">
+  <span class="card-poster">
+    <img src="../60.jpg" alt="神人之家" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">124分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2022</span>
+    <strong>神人之家</strong>
+    <span class="card-desc">导演扛起摄影机回到那个曾是“神媒”的家,记录下信仰崩塌后亲情的重建。</span>
+    <span class="card-meta">
+      <span>中国台湾</span>
+      <span>纪录片</span>
+      <span>20.5万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1139.html" data-card data-title="直面脂肪" data-region="美国" data-year="2024" data-genre="纪录片 社会 健康" data-type="纪录片/电影" data-tags="身材焦虑 饮食障碍 医学偏见 平权">
+  <span class="card-poster">
+    <img src="../89.jpg" alt="直面脂肪" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">89分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">纪录片/电影 · 2024</span>
+    <strong>直面脂肪</strong>
+    <span class="card-desc">四位不同年龄段的肥胖女性,在减肥营、手术台和健身房里,与医学偏见、自我厌恶和社会的“脂肪恐惧”作战。</span>
+    <span class="card-meta">
+      <span>美国</span>
+      <span>纪录片</span>
+      <span>37.3万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1178.html" data-card data-title="千年一问" data-region="中国台湾" data-year="2023" data-genre="纪录片 历史" data-type="电影" data-tags="艺术 追问 文化乡愁">
+  <span class="card-poster">
+    <img src="../128.jpg" alt="千年一问" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">123分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2023</span>
+    <strong>千年一问</strong>
+    <span class="card-desc">一位台湾老兵用四十年的时间,试图画出一幅完整的《富春山居图》,只为问一个关于“家”的问题。</span>
+    <span class="card-meta">
+      <span>中国台湾</span>
+      <span>纪录片</span>
+      <span>13.1万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1248.html" data-card data-title="逃亡" data-region="瑞典/丹麦" data-year="2025" data-genre="动画 纪录片 剧情" data-type="电影" data-tags="阿富汗难民 LGBTQ+ 身份认同 手绘动画 真实事件改编">
+  <span class="card-poster">
+    <img src="../48.jpg" alt="逃亡" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">131分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2025</span>
+    <strong>逃亡</strong>
+    <span class="card-desc">一名阿富汗裔学者在接受纪录片访谈时,终于吐露了埋藏二十年的秘密:他不仅是一名难民,更是一名同性恋。</span>
+    <span class="card-meta">
+      <span>瑞典/丹麦</span>
+      <span>动画</span>
+      <span>15.6万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1309.html" data-card data-title="三船敏郎:最后的武士" data-region="日本/美国" data-year="2025" data-genre="纪录片" data-type="纪录片/传记" data-tags="三船敏郎 黑泽明 武士道 幕后秘辛">
+  <span class="card-poster">
+    <img src="../109.jpg" alt="三船敏郎:最后的武士" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">126分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">纪录片/传记 · 2025</span>
+    <strong>三船敏郎:最后的武士</strong>
+    <span class="card-desc">从未公开的私人影像显示,三船敏郎在拍摄《用心棒》时,曾持真刀站在黑泽明的身后长达两分钟。</span>
+    <span class="card-meta">
+      <span>日本/美国</span>
+      <span>纪录片</span>
+      <span>24.0万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1582.html" data-card data-title="第237号房间" data-region="美国" data-year="2012" data-genre="纪录片 悬疑 恐怖" data-type="电影" data-tags="闪灵 解读 阴谋论 迷影 库布里克">
+  <span class="card-poster">
+    <img src="../82.jpg" alt="第237号房间" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">126分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2012</span>
+    <strong>第237号房间</strong>
+    <span class="card-desc">五个狂热的影迷挤在一间小屋里,企图用长篇大论和过度解读,证明《闪灵》里藏着一个惊天秘密。</span>
+    <span class="card-meta">
+      <span>美国</span>
+      <span>纪录片</span>
+      <span>25.7万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1587.html" data-card data-title="小小少年第二季" data-region="中国大陆" data-year="2023" data-genre="纪录片 儿童" data-type="剧集" data-tags="教育 成长 真实 催泪">
+  <span class="card-poster">
+    <img src="../87.jpg" alt="小小少年第二季" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">36集</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">剧集 · 2023</span>
+    <strong>小小少年第二季</strong>
+    <span class="card-desc">镜头对准六位身怀绝技的中国少年,他们在偏见与压力中坚守热爱,活成了我们不敢想的样子。</span>
+    <span class="card-meta">
+      <span>中国大陆</span>
+      <span>纪录片</span>
+      <span>3.0万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1695.html" data-card data-title="驯马(纪录片)" data-region="中国" data-year="2017" data-genre="纪录片" data-type="电影" data-tags="蒙古马 野性 传承 自然共生">
+  <span class="card-poster">
+    <img src="../45.jpg" alt="驯马(纪录片)" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">113分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2017</span>
+    <strong>驯马(纪录片)</strong>
+    <span class="card-desc">在内蒙古寒冬的暴风雪中,一位老驯马师试图驯服一匹桀骜不驯的野马,以此挽留即将去城市打工的孙子。</span>
+    <span class="card-meta">
+      <span>中国</span>
+      <span>纪录片</span>
+      <span>27.5万</span>
+    </span>
+  </span>
+</a>
+<a class="movie-card default" href="../movies/movie-1892.html" data-card data-title="罗纳尔多" data-region="巴西/英国" data-year="2016" data-genre="纪录片 传记" data-type="电影" data-tags="足球 传奇 伤病 励志 独家影像">
+  <span class="card-poster">
+    <img src="../92.jpg" alt="罗纳尔多" loading="lazy">
+    <span class="poster-gradient"></span>
+    <span class="duration-badge">114分钟</span>
+    <span class="play-badge">▶</span>
+  </span>
+  <span class="card-content">
+    <span class="eyebrow">电影 · 2016</span>
+    <strong>罗纳尔多</strong>
+    <span class="card-desc">独家跟拍巴西传奇球星罗纳尔多·纳扎里奥的退役前最后一年,直面他内心的魔鬼与荣耀。</span>
+    <span class="card-meta">
+      <span>巴西/英国</span>
+      <span>纪录片</span>
+      <span>14.9万</span>
+    </span>
+  </span>
+</a>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="../index.html">
+        <span class="brand-icon">▶</span>
+        <span class="brand-copy">
+          <span class="brand-title">国产经典视频</span>
+          <span class="brand-subtitle">经典影片合集</span>
+        </span>
+      </a>
+      <p>精选经典影片、剧集专题与高关注栏目，打造清晰顺畅的在线视频浏览体验。</p>
+    </div>
+    <div class="footer-links">
+      <a href="../index.html">首页</a>
+      <a href="../movies.html">全部影片</a>
+      <a href="../categories.html">分类</a>
+      <a href="../ranking.html">排行榜</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产经典视频. 保留所有权利.</div>
+</footer>
+<script src="../assets/js/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
